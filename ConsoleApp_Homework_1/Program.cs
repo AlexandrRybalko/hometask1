@@ -37,22 +37,6 @@ namespace ConsoleApp_Homework_1
             Decomposer decomposer = new Decomposer(a, b, c);
             decomposer.Resolve();
 
-            /*if (Decomposer.CountDiscriminant(a, b, c) > 0)
-            {
-                Console.WriteLine($"x1 = {Decomposer.FindX1(Decomposer.CountDiscriminant(a, b, c), a, b)}, x2 = {Decomposer.FindX2(Decomposer.CountDiscriminant(a, b, c), a, b)}");
-                Console.WriteLine(Decomposer.Decompose(a, Decomposer.FindX1(Decomposer.CountDiscriminant(a, b, c), a, b), Decomposer.FindX2(Decomposer.CountDiscriminant(a, b, c), a, b)));
-                
-            }
-            else if(Decomposer.CountDiscriminant(a, b, c) == 0)
-            {
-                Console.WriteLine($"x1 = x2 = {Decomposer.FindSingleX(a, b)}");
-                Console.WriteLine(Decomposer.Decompose(a, Decomposer.FindSingleX(a, b), Decomposer.FindSingleX(a, b)));
-            }
-            else
-            {
-                Console.WriteLine("The equation has no roots");
-            }*/
-
             Console.ReadLine();
         }
     }
