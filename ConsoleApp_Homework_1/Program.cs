@@ -14,7 +14,7 @@ namespace ConsoleApp_Homework_1
                 Console.WriteLine("Input is not valid");
                 Console.WriteLine("Enter a");
             }
-            Console.WriteLine("Enter b");
+            Console.WriteLine("Enter B");
             while (!Double.TryParse(Console.ReadLine(), out b))
             {
                 Console.WriteLine("Input is not valid");
